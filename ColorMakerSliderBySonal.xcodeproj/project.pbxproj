@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1759D51F6DE751000E3D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1759D41F6DE751000E3D6A /* AppDelegate.swift */; };
+		EE1759D71F6DE751000E3D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1759D61F6DE751000E3D6A /* ViewController.swift */; };
+		EE1759DA1F6DE751000E3D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1759D81F6DE751000E3D6A /* Main.storyboard */; };
+		EE1759DC1F6DE751000E3D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1759DB1F6DE751000E3D6A /* Assets.xcassets */; };
+		EE1759DF1F6DE751000E3D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1759DD1F6DE751000E3D6A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE1759D11F6DE751000E3D6A /* ColorMakerSliderBySonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMakerSliderBySonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1759D41F6DE751000E3D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE1759D61F6DE751000E3D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1759D91F6DE751000E3D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1759DB1F6DE751000E3D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1759DE1F6DE751000E3D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1759E01F6DE751000E3D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1759CE1F6DE751000E3D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1759C81F6DE751000E3D6A = {
+			isa = PBXGroup;
+			children = (
+				EE1759D31F6DE751000E3D6A /* ColorMakerSliderBySonal */,
+				EE1759D21F6DE751000E3D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1759D21F6DE751000E3D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1759D11F6DE751000E3D6A /* ColorMakerSliderBySonal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1759D31F6DE751000E3D6A /* ColorMakerSliderBySonal */ = {
+			isa = PBXGroup;
+			children = (
+				EE1759D41F6DE751000E3D6A /* AppDelegate.swift */,
+				EE1759D61F6DE751000E3D6A /* ViewController.swift */,
+				EE1759D81F6DE751000E3D6A /* Main.storyboard */,
+				EE1759DB1F6DE751000E3D6A /* Assets.xcassets */,
+				EE1759DD1F6DE751000E3D6A /* LaunchScreen.storyboard */,
+				EE1759E01F6DE751000E3D6A /* Info.plist */,
+			);
+			path = ColorMakerSliderBySonal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1759D01F6DE751000E3D6A /* ColorMakerSliderBySonal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1759E31F6DE751000E3D6A /* Build configuration list for PBXNativeTarget "ColorMakerSliderBySonal" */;
+			buildPhases = (
+				EE1759CD1F6DE751000E3D6A /* Sources */,
+				EE1759CE1F6DE751000E3D6A /* Frameworks */,
+				EE1759CF1F6DE751000E3D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorMakerSliderBySonal;
+			productName = ColorMakerSliderBySonal;
+			productReference = EE1759D11F6DE751000E3D6A /* ColorMakerSliderBySonal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1759C91F6DE751000E3D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Low Cost Interlock";
+				TargetAttributes = {
+					EE1759D01F6DE751000E3D6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FWMT9L3YBT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE1759CC1F6DE751000E3D6A /* Build configuration list for PBXProject "ColorMakerSliderBySonal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1759C81F6DE751000E3D6A;
+			productRefGroup = EE1759D21F6DE751000E3D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1759D01F6DE751000E3D6A /* ColorMakerSliderBySonal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1759CF1F6DE751000E3D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1759DF1F6DE751000E3D6A /* LaunchScreen.storyboard in Resources */,
+				EE1759DC1F6DE751000E3D6A /* Assets.xcassets in Resources */,
+				EE1759DA1F6DE751000E3D6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1759CD1F6DE751000E3D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1759D71F6DE751000E3D6A /* ViewController.swift in Sources */,
+				EE1759D51F6DE751000E3D6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE1759D81F6DE751000E3D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1759D91F6DE751000E3D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1759DD1F6DE751000E3D6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1759DE1F6DE751000E3D6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1759E11F6DE751000E3D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1759E21F6DE751000E3D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1759E41F6DE751000E3D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWMT9L3YBT;
+				INFOPLIST_FILE = ColorMakerSliderBySonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowcostinterlock.ColorMakerSliderBySonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE1759E51F6DE751000E3D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWMT9L3YBT;
+				INFOPLIST_FILE = ColorMakerSliderBySonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowcostinterlock.ColorMakerSliderBySonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1759CC1F6DE751000E3D6A /* Build configuration list for PBXProject "ColorMakerSliderBySonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1759E11F6DE751000E3D6A /* Debug */,
+				EE1759E21F6DE751000E3D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1759E31F6DE751000E3D6A /* Build configuration list for PBXNativeTarget "ColorMakerSliderBySonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1759E41F6DE751000E3D6A /* Debug */,
+				EE1759E51F6DE751000E3D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1759C91F6DE751000E3D6A /* Project object */;
+}
