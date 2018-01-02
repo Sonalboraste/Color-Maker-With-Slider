@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var sliderRed : UISlider!
+    @IBOutlet var sliderGreen : UISlider!
+    @IBOutlet var sliderBlue : UISlider!
+    @IBOutlet var colorView : UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onSliderChangeEvent()
+    {
+        // Make sure the program doesn't crash if the controls aren't connected
+        if self.sliderRed == nil {
+            return
+        }
+        
+        let r: CGFloat = CGFloat(self.sliderRed.value)
+        let g: CGFloat = CGFloat(self.sliderGreen.value)
+        let b: CGFloat = CGFloat(self.sliderBlue.value)
+        
+        colorView.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
     }
-
-
 }
 
